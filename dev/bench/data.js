@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629436684482,
+  "lastUpdate": 1629436687854,
   "repoUrl": "https://github.com/shubhank-saxena/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1519,6 +1519,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008368383912636912",
             "extra": "mean: 815.8106915999952 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "github+bot@snyk.io",
+            "name": "Snyk bot",
+            "username": "snyk-bot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f508421357b9baec7046669425354094709512d0",
+          "message": "fix: requirements.dev.txt to reduce vulnerabilities (#310)\n\nThe following vulnerabilities are fixed by pinning transitive dependencies:\r\n- https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-1567195",
+          "timestamp": "2021-08-19T13:16:26+05:30",
+          "tree_id": "a3414d28f18507b591f22e433de5b991ab8fb638",
+          "url": "https://github.com/shubhank-saxena/SyMPC/commit/f508421357b9baec7046669425354094709512d0"
+        },
+        "date": 1629436687315,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 1.3402314596242353,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02155209997524718",
+            "extra": "mean: 746.1397752000039 msec\nrounds: 5"
           }
         ]
       }
