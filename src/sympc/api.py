@@ -84,10 +84,6 @@ s
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor",
     ),
     (
-        "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.get_shares",
-        "syft.lib.python.List",
-    ),
-    (
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.numel",
         "syft.lib.python.Int",  # FIXME: Can't we just return an int??
     ),
