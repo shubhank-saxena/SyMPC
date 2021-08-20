@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1627938690415,
-  "repoUrl": "https://github.com/OpenMined/SyMPC",
+  "lastUpdate": 1629436684482,
+  "repoUrl": "https://github.com/shubhank-saxena/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
       {
@@ -1488,6 +1488,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04133295798418396",
             "extra": "mean: 1.127503292 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43314053+rasswanth-s@users.noreply.github.com",
+            "name": "rasswanth",
+            "username": "rasswanth-s"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7330b547fdcb0738675bc08cf48aa5d5512772f0",
+          "message": "Separate Runner for Linting. (#304)\n\n* added separate workflow for linting\r\n\r\n* removed pre-commit from test runners\r\n\r\n* bump pre-commit version",
+          "timestamp": "2021-08-12T06:26:10+01:00",
+          "tree_id": "e00639b7419cac711a0a3b5c2827d835c368e06c",
+          "url": "https://github.com/shubhank-saxena/SyMPC/commit/7330b547fdcb0738675bc08cf48aa5d5512772f0"
+        },
+        "date": 1629436683684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 1.2257745703709357,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008368383912636912",
+            "extra": "mean: 815.8106915999952 msec\nrounds: 5"
           }
         ]
       }
