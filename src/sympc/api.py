@@ -16,22 +16,7 @@ With this lists here, SyMPC has the control and this "Double PR tests error" is 
 """
 
 # third party
-import syft as sy
-
-import sympc
-
-from . import protocol  # noqa: 401
-from . import session  # noqa: 401
-from . import store  # noqa: 401
-from . import tensor  # noqa: 401
-from . import utils  # noqa: 401
-
-from . import grads  # noqa: 401 isort: skip
-from . import module  # noqa: 401 isort: skip
-
-allowed_external_modules = [
-    ("sympc", sympc),
-    ("sympc.session", session),
+import syft as sygon", session),
     ("sympc.tensor", tensor),
     ("sympc.tensor.share_tensor", tensor.share_tensor),
     ("sympc.tensor.replicatedshare_tensor", tensor.replicatedshare_tensor),
