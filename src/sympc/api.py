@@ -86,7 +86,7 @@ s
     (
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.numel",
         "syft.lib.python.Int",  # FIXME: Can't we just return an int??
-    ),
+    ),dwdwd
     (
         "sympc.tensor.replicatedshare_tensor.ReplicatedSharedTensor.get_ring_size",
         "syft.lib.python.String",
