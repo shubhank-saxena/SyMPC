@@ -29,12 +29,7 @@ SyMPC is a companion library for PySyft. Therefore, we will need to install PySy
 
     $ conda create -n sympc python=3.9
     $ conda activate sympc
-    $ pip install -r requirements.txt
-    $ pip install .
 
-You can also run SyMPC using docker by running the following commands. 
-
-.. code:: bash
     
     $ docker build -t sympc -f docker-images/Dockerfile .  #builds image named sympc
     $ docker run -i -t sympc  #runs the container 
