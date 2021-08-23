@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1629445624340,
+  "lastUpdate": 1629694738255,
   "repoUrl": "https://github.com/shubhank-saxena/SyMPC",
   "entries": {
     "Pytest-benchmarks": [
@@ -1581,6 +1581,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009748713041390175",
             "extra": "mean: 785.2791516000138 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "saxena.shubhank.19@gmail.com",
+            "name": "Shubhank Saxena",
+            "username": "shubhank-saxena"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23af8d98c3bf650c129c7e8e85bbc17de46034aa",
+          "message": "Merge pull request #9 from shubhank-saxena/concurrency-kill\n\nMOdify the scope to github.job",
+          "timestamp": "2021-08-23T10:26:29+05:30",
+          "tree_id": "2dfab1865cf64c6afd47f9e62dd18506bb7212c4",
+          "url": "https://github.com/shubhank-saxena/SyMPC/commit/23af8d98c3bf650c129c7e8e85bbc17de46034aa"
+        },
+        "date": 1629694737213,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/module/module_benchmark_test.py::test_run_inference_conv_model",
+            "value": 1.3213242052205119,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03212987933114451",
+            "extra": "mean: 756.8165300000032 msec\nrounds: 5"
           }
         ]
       }
